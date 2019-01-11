@@ -1,0 +1,14 @@
+type Dog {
+    name: String!
+}
+type User {
+    id: ID!,
+    name: String!
+}
+
+type Mutation {
+    hi: String!
+}
+type Query {
+    dogs: [Dog]!
+}
